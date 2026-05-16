@@ -1,102 +1,109 @@
-# 🤖 IA Impact Dashboard - Power BI
+# 🤖 Dashboard IA Impact | Analyse de l’Impact de l’Intelligence Artificielle avec Power BI
 
-## 📌 Description du projet
-Ce projet Power BI analyse **l’impact de l’intelligence artificielle sur la productivité, la qualité du code et le bien-être des développeurs**.
+## 📌 Présentation du projet
 
-Le tableau de bord est organisé en **3 pages interactives** permettant d’explorer différents indicateurs de performance liés à l’utilisation de l’IA.
+Ce projet consiste en la création d’un **dashboard interactif sous Power BI** permettant d’analyser l’impact de l’intelligence artificielle sur la performance des développeurs à travers plusieurs dimensions : productivité, qualité du code et bien-être au travail.
 
----
-
-# 📊 Dashboard 1 : Executive Overview
-
-Cette page présente une vue d’ensemble des principaux indicateurs de performance.
-
-## KPIs principaux
-- 📄 **Total LOC** (Lines of Code)
-- 🐞 **Taux de correction des bugs (%)**
-- 😴 **Heures moyennes de sommeil**
-- ✅ **Taux de réussite pondéré des tâches**
-- ⚠️ **Erreurs par heure**
-- 😰 **Niveau moyen de stress**
-- 💻 **LOC par heure de codage**
-- 🤖 **Taux d’utilisation de l’IA**
-- 🧠 **Charge cognitive moyenne**
-
-## Visualisations
-- Graphique du **statut des bugs**
-- Filtre interactif sur les plages de données
+L’objectif est de transformer les données liées à l’utilisation de l’IA en **informations claires, visuelles et exploitables** afin de mieux comprendre son influence sur les processus de développement et d’aider à optimiser les pratiques de travail.
 
 ---
 
-# ⚡ Dashboard 2 : Productivity
+# 📂 Pages du Dashboard
 
-Cette page analyse la productivité des développeurs avec l’utilisation de l’IA.
+## 1️⃣ Vue d’ensemble IA
 
-## KPIs principaux
-- ⏱️ **Durée totale des tâches**
-- 🔄 **Commits par heure**
-- 💻 **LOC par heure de tâche**
-- 😴 **Heures moyennes de sommeil**
+Cette page offre une vision globale des principaux indicateurs de performance liés à l’utilisation de l’intelligence artificielle.
 
-## Visualisations
-- Évolution du **nombre de lignes de code par heures de codage**
-- Tendance de productivité
-- Analyse de performance
+### KPI principaux
 
----
+- Total des lignes de code (LOC)
+- Taux de correction des bugs
+- Heures moyennes de sommeil
+- Taux de réussite des tâches
+- Nombre d’erreurs par heure
+- Niveau moyen de stress
+- Lignes de code par heure de codage
+- Taux d’utilisation de l’IA
+- Charge cognitive moyenne
 
-# 🐞 Dashboard 3 : Quality & Debug
+### Analyses disponibles
 
-Cette page se concentre sur la qualité du code et la gestion des erreurs.
+- Répartition du statut des bugs
+- Suivi global des performances
+- Analyse des indicateurs de bien-être
+- Exploration des données via filtres interactifs
 
-## KPIs principaux
-- 🛠️ **Taux de correction des bugs**
-- ❌ **Nombre total d’erreurs**
-- 🐛 **Bugs pour 100 lignes de code**
-- ✅ **Nombre total de bugs corrigés**
-- ⚠️ **Erreurs pour 100 lignes de code**
-- 🔍 **Nombre total de bugs détectés**
+### Objectif
 
-## Visualisations
-- Diagramme circulaire :
-  - Total Bugs Fixed
-  - Total Bugs Found
+Obtenir une vue synthétique de l’impact global de l’IA sur la performance et le bien-être des développeurs.
 
 ---
 
-## 🎯 Objectif du projet
+## 2️⃣ Productivité
 
-Analyser l’influence de l’intelligence artificielle sur :
+Cette page permet d’évaluer l’impact de l’intelligence artificielle sur la productivité des développeurs.
 
-- la productivité des développeurs
-- la qualité du code
-- la correction des bugs
-- la charge cognitive
-- le niveau de stress
-- l’équilibre travail / repos
+### KPI principaux
 
----
+- Durée totale des tâches
+- Nombre de commits par heure
+- Lignes de code par heure de tâche
+- Heures moyennes de sommeil
 
-## 🛠️ Outils utilisés
+### Analyses disponibles
 
-- **Power BI**
-- **Power Query**
-- **DAX**
-- **Data Visualization**
+- Évolution des lignes de code par heure de codage
+- Tendance de la productivité dans le temps
+- Analyse comparative des performances
+- Suivi de l’efficacité des tâches
 
----
+### Objectif
 
-## 📂 Fichier du projet
-
-- Perfomace IA Developers.pbix`
+Mesurer l’influence de l’IA sur l’efficacité et la rapidité d’exécution des tâches de développement.
 
 ---
 
-## 🚀 Résultats attendus
+## 3️⃣ Qualité du code et débogage
 
-Ce dashboard permet d’identifier :
+Cette page est dédiée à l’analyse de la qualité du code et à la gestion des erreurs.
 
-- si l’IA améliore réellement la productivité
-- son impact sur la qualité du code
-- son influence sur le stress et la fatigue des développeurs
-- les opportunités d’optimisation du travail avec l’IA
+### KPI principaux
+
+- Taux de correction des bugs
+- Nombre total d’erreurs
+- Bugs pour 100 lignes de code
+- Nombre total de bugs corrigés
+- Erreurs pour 100 lignes de code
+- Nombre total de bugs détectés
+
+### Analyses disponibles
+
+- Répartition des bugs détectés et corrigés
+- Analyse des erreurs dans le code
+- Suivi des performances de débogage
+- Évaluation de la qualité globale du code
+
+### Objectif
+
+Analyser l’impact de l’IA sur la qualité du code et l’efficacité du processus de correction des erreurs.
+
+---
+
+# 🛠️ Outils utilisés
+
+- Power BI Desktop
+- Power Query
+- DAX (Data Analysis Expressions)
+- Data Visualization
+
+---
+
+# 🎯 Résultats attendus
+
+Ce dashboard permet de :
+
+- Mesurer l’impact de l’IA sur la productivité des développeurs
+- Évaluer son influence sur la qualité du code
+- Analyser son effet sur le stress et la fatigue
+- Identifier les opportunités d’optimisation du travail avec l’IA
+- Faciliter la prise de décision grâce à des visualisations interactives
